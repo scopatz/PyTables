@@ -35,6 +35,7 @@ Contents
     utilities
     file_format
     bibliography
+    numpydoc_tests
 
 --------------------------------------------------------
 Copyright Notice and Statement for PyTables User's Guide

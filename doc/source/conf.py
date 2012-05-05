@@ -29,6 +29,7 @@ sys.path.insert(0, os.path.abspath('../sphinxext'))
 extensions = ['sphinx.ext.autodoc', 'sphinx.ext.doctest', 'sphinx.ext.pngmath',
               'sphinx.ext.inheritance_diagram', 'sphinx.ext.extlinks',
               'ipython_console_highlighting', 'sphinx.ext.todo',
+              'numpydoc', 'sphinx.ext.autosummary'
               ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -236,7 +237,7 @@ latex_elements = {
 # -- Options for autodocumentation ---------------------------------------------
 autodoc_member_order = "groupwise"
 autoclass_content = "both"
-autosummary_generate = []
+autosummary_generate = ['usersguide/numpydoc_tests.rst']
 
 # -- Options for Epub output ---------------------------------------------------
 
