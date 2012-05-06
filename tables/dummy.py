@@ -76,6 +76,7 @@ class SampleClass(object):
 
     Note that the covariance matrix must be non-negative definite.
     """
+
     def __init__(self, filename, mode="r", title="",
                  rootUEP="/", filters=None, **kwargs):
 
